@@ -43,4 +43,5 @@ cuDNN(CUDA Deep Neural Network library): 딥러닝 모델 학습을 위한 CUDA 
   -> print(torch.cuda.is_available) True로 나오면 GPU 연결 성공, False로 나오면 CPU 연결 상태
 3. pip install scikit-image
 4. pip install pandas
-5. 
+5. pip install scikit-learn
+
