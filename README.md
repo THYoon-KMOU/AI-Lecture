@@ -21,7 +21,16 @@ cuDNN(CUDA Deep Neural Network library): 딥러닝 모델 학습을 위한 CUDA 
 3. 시스템 환경 변수 편집 -> CUDA_PATH, CUDA_PATH_Vversion이 잘 설정되었는 지 여부 확인
 4. cmd 창에 nvcc --version 입력 후, 설치한 버전이 확인되면 성공
 
-# Step 5. Anaconda 가상환경 내 학습에 필요한 각종 library 설치
-## 5.1. Tensorflow 
+# Step 5. Anaconda 가상환경 구축
+## 5.1. 가상환경 확인 및 생성
 
-예: Geforce RTX 3060/4090의 경우, cuDNN v8.1.1/v8.9.7
+1. conda info --envs
+2. conda create -n 가상환경이름 python=파이썬 버전
+3. conda activate 가상환경이름
+4. conda deactivate
+
+* 파이썬 버전 확인방법: python --version
+  
+## 5.2. 학습에 필요한 각종 Library 설치
+
+1. 
