@@ -38,4 +38,9 @@ cuDNN(CUDA Deep Neural Network library): 딥러닝 모델 학습을 위한 CUDA 
 
 ## 5.3. 학습에 필요한 각종 Library 설치
 
-1. 
+1. pip install opencv-python
+2. pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118 (안될 시, pip install torch torchvision torchaudio(CPU 버전))
+  -> print(torch.cuda.is_available) True로 나오면 GPU 연결 성공, False로 나오면 CPU 연결 상태
+3. pip install scikit-image
+4. pip install pandas
+5. 
