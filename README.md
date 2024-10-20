@@ -45,3 +45,8 @@ cuDNN(CUDA Deep Neural Network library): 딥러닝 모델 학습을 위한 CUDA 
 4. pip install pandas
 5. pip install scikit-learn
 
+# Step 6. 소스코드 다운로드
+
+1. git --version 을 통해 Git 설치 확인
+2. (설치되어 있지 않다면, conda install git 을 통해 Git 설치)
+3. git clone https://github.com/THYoon-KMOU/AI-Lecture.git
