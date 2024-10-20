@@ -30,7 +30,12 @@ cuDNN(CUDA Deep Neural Network library): 딥러닝 모델 학습을 위한 CUDA 
 4. conda deactivate
 
 * 파이썬 버전 확인방법: python --version
-  
-## 5.2. 학습에 필요한 각종 Library 설치
+## 5.2. VS Code와 Jupyter 커널 연결
+
+1. Ctrl + Shift + p 입력 후, python: interpreter 선택
+2. 생성한 가상환경이름 선택
+3. 우측에 본인의 가상환경이름이 나오면 VS Code와 연동 성공
+
+## 5.3. 학습에 필요한 각종 Library 설치
 
 1. 
